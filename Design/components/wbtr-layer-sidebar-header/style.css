@@ -1,0 +1,36 @@
+:host{min-height: 43px;}
+:host header{display: flex;justify-content: space-between;align-items: center;}
+.menu-items{display: flex;gap: var(--tab--menuitems--gap);}
+.menu-items a{color:var(--tab--menu--text--color);text-decoration: none;display: inline-flex;justify-content: center;align-items: center;padding: var(--tab--menuitem--padding);transition: background-color 0.3s linear;border-radius: var(--tab--menuitem--borderradius);background: transparent;position: relative;overflow: hidden;}
+.menu-items a.active{color: var(--tab--activemenu--text--color);font-weight: var(--tab--activemenu--text--weight);}
+.menu-items a:hover{background: var(--tab--menuitem--hover--bgcolor);}
+
+.menu-items svg{display: none;fill: none;stroke: currentColor;stroke-width: 2px;}
+.menu-item-image svg{width: 16px;position: absolute;width: 35px;height: 35px;position: absolute;top:50%;left:50%;transform: translate(-50%,-50%);}
+.block_section.flip-sidebar-active a{width: 32px;height: 32px;}
+.block_section.flip-sidebar-active .menu-items a{font-size: 0px;}
+.block_section.flip-sidebar-active .menu-items svg{display: block;}
+
+.search-box {position: relative;}
+.search-box:has(input:checked) .iconbtn:hover{background-color: transparent;}
+.search-box button{position: relative;z-index: 2;}
+.search-box button svg.cut{display: none;width: 10px;height: 12pz;}
+
+
+.search-box button [type="checkbox"]{position: absolute;top: 0;left: 0;width: 100%;height: 100%;opacity: 0;z-index: 1;cursor: pointer;}
+[type="search"]{position: absolute;top: -2px;right: 0px;width: 240px;height: 30px;background: var(--formcontrol--bgcolor);border: var(--formcontrol--border);opacity: 0;visibility: hidden;pointer-events: none;padding: var(--formcontrol--smpadding);padding-right:25px;border-radius: 15px;}
+[type="search"]:focus{outline:var(--formcontrol--hover--outline);border-color: transparent;}
+.search-box:has(input:checked) [type="search"]{opacity: 1;visibility: visible;pointer-events: auto;}
+.search-box:has(input:checked) svg.magnifying-glass{display: none;}
+.search-box:has(input:checked) svg.cut{display: block;}
+
+
+
+.block_section.flip-sidebar-active [type="search"]{right: inherit;left: -82px;box-shadow: 0px 0px 9px 0 rgba(0, 0, 0,0.3);z-index: 1;}
+.block_section.flip-sidebar-active .search-box:has(input:checked) button {right: -128px;}
+
+
+
+
+
+

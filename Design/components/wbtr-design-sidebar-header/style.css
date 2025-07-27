@@ -1,0 +1,14 @@
+.block_header{display: flex;justify-content: space-between;padding: var(--block--header--iconbtn--padding);}
+.tab-links{display: flex;gap: 6px;}
+
+.flip-sidebar-btn svg{width: 19px;height: 19px;stroke: currentColor;stroke-width: 2px;fill: none;}
+
+
+
+.block_section.flip-sidebar-active .block_header{justify-content: center;}
+.block_section.flip-sidebar-active{border-width: 1px;}
+.block_section.flip-sidebar-active :where(.tab-links){display: none;}
+
+ 
+
+
