@@ -1,0 +1,11 @@
+
+:host{display: flex;flex-wrap: wrap;height: 100vh;}
+:host :where(wbtr-design-sidebar, wbtr-layer-sidebar){width: 250px;transition: 0.2s all linear;}
+
+
+wbtr-design-sidebar.flip-sidebar-active{width: 55px;}
+wbtr-layer-sidebar.flip-sidebar-active{width: 124px;}
+
+
+
+ 
