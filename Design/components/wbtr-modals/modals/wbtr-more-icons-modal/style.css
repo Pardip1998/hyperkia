@@ -1,0 +1,11 @@
+.icons-section{width:85vw;height: 85vh;border:1px solid #ccc;display: flex;flex-direction: column;}
+
+.icons-header{display: flex;flex-wrap: wrap;justify-content: flex-start;align-items: center;padding:15px 20px;border-bottom:2px solid #ccc;}
+.icons-search{height: 34px;padding: 0 8px;width: 100%;max-width: 300px;margin: 0 10px 0 auto;outline: 2px solid #ccc;border-radius: 4px;border:none;}
+.icons-search:focus{outline: var(--formcontrol--hover--outline);}
+
+.icons-lists{width:100%;flex-grow: 1;display: grid;grid-template-columns: repeat(11, 1fr);overflow: auto;padding: 20px;align-content: flex-start;}
+.noicons-list{font: var(--h2--font);position: absolute;top: calc(50% + 20px);left: 50%;transform: translate(-50%, -50%);display: block;text-align: center;}
+.icons-lists:has(.icons-list) + .noicons-list{display: none;}
+.icons-lists .icons-list{height: 100px;border:1px solid #ccc;padding:8px;display: flex;justify-content: center;align-items: center;}
+.icons-list svg{max-width: 100%;width:30px;max-height: 30px;fill: var(--icon--color--black);height: auto;}

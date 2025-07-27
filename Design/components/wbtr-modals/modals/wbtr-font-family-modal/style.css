@@ -1,0 +1,32 @@
+
+
+.tabcontent-available{position: relative;}
+.nofont-text{font:var(--h2--font);position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align: center;}
+.nofont-text u{cursor: pointer;}
+.fontslist:has(.fontlist-item) + .nofont-text{display: none;}
+
+.fontslist{display: flex;flex-direction: column;gap:15px;height: 100%;padding-right: 10px;}
+.fontslist li{padding: 15px;border:2px solid #e6e6e6;border-radius: 8px;}
+
+.search-font-family{opacity: 0;visibility: hidden;pointer-events: none;}
+.tabmenu:has(.library-font.active) .search-font-family{display: inline-block !important;opacity: 1;visibility: visible;pointer-events: auto;}
+.tabmenu-item.active{background-color: transparent !important;color: #383838 !important;}
+
+.fontlist-item{transition-property: opacity;opacity: 1;transition-duration: 0.5s;line-height: 1.2;letter-spacing: 2px;}
+.fontlist-item.deleting{outline:2px solid red;outline-offset: -2px;opacity: 0;}
+
+.fontlist-title{font-family: var(--h4--font) !important;margin-bottom: 5px;letter-spacing: normal;display: flex;justify-content: space-between;align-items: center;}
+.fontlist-uppercase{font-size: 40px;}
+.fontlist-lowercase{font-size: 35px;margin-top:10px;}
+.fontlist-numbers{font-size: 30px;margin-top:10px;}
+.fontlist-uppercase:focus, .fontlist-lowercase:focus, .fontlist-numbers:focus{outline: none;}
+
+.font-btn{background-color: #0d99ff;color: #fff;font-size: 16px;padding: 6px 15px;cursor: pointer;display: inline-flex;justify-content: center;align-items: center;text-transform: capitalize;min-width: 95px;}
+.font-btn svg{color: #fff;margin-left: 6px;width: 14px;height: 14px;pointer-events: none;}
+
+.font-btn.delete-font{background-color: #B71C1C;}
+.fontlist-item.added .font-btn{background-color: #008000;font-size: 0px;pointer-events: none;}
+.fontlist-item.added .font-btn::before,.fontlist-item.added .font-btn::after{color: currentColor;display: inline-flex;margin-left: 7px;pointer-events: none;}
+.fontlist-item.added .font-btn::before{content: 'Added';font-size: 16px;}
+.fontlist-item.added .font-btn::after{content: '\2714';font-size: 14px;}
+.fontlist-item.added svg{display: none;}
