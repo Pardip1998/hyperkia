@@ -1,0 +1,124 @@
+
+
+
+:root{
+
+    /*--primary--color: $$$;
+    --secondary--color: $$$;*/
+
+    --sky--bgcolor: #0d99ff;
+    --background--color: #ffffff;
+    --icon--color--black: #383838;
+    --icon--color--gray: #ababab;
+    --title--color--black: #383838;
+    --text--color--black: #383838;
+
+    --black--border: 1px solid #383838;
+
+    --white--bgcolor: #fff;
+
+    --color--e6e6e6: #e6e6e6;
+    
+    --hover--lightsky--bgcolor: #e5f4ff;
+    --hover--deepgray--bgcolor: #e6e6e6;
+    --hover--sky--bgcolor: #0d99ff;
+    --hover--active-lightsky--bgcolor: #e5f4ff;
+    --hover--lightgray--bgcolor: #f5f5f5;    
+    --hover--active--lightgray--bgcolor: #f5f5f5;
+    --hover--active--black--bgcolor: #000;
+    --hover--active--white--textcolor: #fff;
+
+    --block--section-bottom--border: 1px solid #e6e6e6;
+    --block-header--padding: 5px 5px 5px 11px;
+    --block--header--iconbtn--padding: 5px;
+    --block--body--padding: 3px 10px;
+
+    --separator--grayborder: 1px solid #e6e6e6;
+
+    --icon--black--border: 1px solid #383838;
+
+    --icon--button--width: 32px;
+    --icon--button--height: 32px;
+    --icon--button--radius: 4px;
+    --icon--button--padding: 5px;
+    --icon--button--bgcolor: transparent;
+    --icon--button--hover--bgcolor: #f5f5f5;
+
+    --tab--menu--text--color: #7b7b7b;
+    --tab--activemenu--text--color: #383838;
+    --tab--activemenu--text--weight: 500;
+    --tab--activemenuitem--bgcolor: #f5f5f5;
+    --tab--menuitem--hover--bgcolor: #f5f5f5;
+    --tab--menuitem--padding: 5px;
+    --tab--menuitem--borderradius: 5px;
+    --tab--menuitems--gap: 6px;
+
+
+    --css--block--label--text--color: #a2a1a1;
+    --css--block--label--title--text--color: #7b7b7b;
+    --css--block--label--title--margin: 0 0 4px;
+
+    --formcontrol--border: 1px solid #e6e6e6;
+    --formcontrol--hover--outline: 2px solid #0d99ff;
+    --formcontrol--focus--bordercolor: #717171;
+    --formcontrol--bgcolor: #f5f5f5;
+    --formcontrol--textcolor: #383838;    
+    --formcontrol--smpadding: 4px 6px;
+    --formcontrol--borderradius: 4px;
+    --formcontrol--wrapper-padding: 2px 3px 2px 3px;
+
+
+    --font--family-poppins: 'Poppins', sans-serif;
+
+    --h1--font: 500 25px/1.5 var(--font--family-poppins);
+    --h2--font: 500 22px/1.5 var(--font--family-poppins);
+    --h3--font: 500 19px/1.5 var(--font--family-poppins);
+    --h4--font: 500 16px/1.5 var(--font--family-poppins);
+    --h5--font: 500 13px/1.5 var(--font--family-poppins);
+    --h6--font: 500 10px/1.5 var(--font--family-poppins);
+
+    --smborder--radius: 4px;
+
+    --scrollbar--color: gray;
+
+
+    
+
+    --layer--background-color: red;
+
+
+
+} 
+
+
+
+
+:root {
+    --svgbtn--width: 26px;
+    --svgbtn--height: 26px;
+    --svgbtn--bgcolor: transparent;
+    --svgbtn--radius: 4px;
+    --svgbtn--iconfill: #f5f5f5;
+    --svgbtn--iconwidth: 18px;
+    --svgbtn--iconheight: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
