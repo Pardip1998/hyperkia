@@ -1,0 +1,10 @@
+:host input{background: none;border:none;outline: none;box-shadow: none;padding: 0 3px;}
+
+.forminput-wrapper{width: 100%;display: flex;gap: 2px;justify-content: space-between;align-items: center;background: var(--formcontrol--bgcolor);border-radius: var(--formcontrol--borderradius);padding: var(--formcontrol--wrapper-padding);}
+.forminput-icon{position: relative;overflow: hidden;width: 15px;flex-shrink: 0;height: 20px;color: var(--icon--color--black);display: inline-flex;align-items: center;}
+.forminput-icon svg{width: 15px;height: 15px;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);color: inherit;}
+.forminput-input{width: 50px;flex-grow: 1;}
+.forminput-input input{width: 100%;height: 22px;}
+.forminput-variable{display: inline-flex;align-items: center;}
+.gear-icon{width: 13px;fill: none;stroke: #7b7b7b;stroke-width: 50px;}
+.forminput-wrapper:focus-within{outline:var(--formcontrol--hover--outline);}

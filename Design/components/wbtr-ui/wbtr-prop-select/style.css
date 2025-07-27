@@ -1,0 +1,16 @@
+:host{height: 28px;display: block;}
+.select-wrapper {position: relative;display: inline-block;width: 100%;user-select: none;cursor: default;height: 28px;}
+.select-trigger {background: var(--formcontrol--bgcolor);color: var(--formcontrol--textcolor);padding: 4px 6px 4px 6px;cursor: pointer;border-radius: var(--formcontrol--borderradius);user-select: none;list-style: none;position: relative;display: block;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;padding-right: 15px;height: 100%;}
+details:has(.select-trigger.disable){cursor: not-allowed;}
+.select-trigger.disable{pointer-events: none;}
+.select-wrapper[open] .select-trigger{outline:var(--formcontrol--hover--outline);}
+.select-trigger::after {content: '';position: absolute;top: 50%;right: 8px;transform: translateY(-50%);width:4px;height:4px;border:1px solid currentColor;border-top: none;border-left: none;rotate: 45deg;}
+.select-options {position: absolute;top: 50%;left: 0;background: white;border: 1px solid #ccc;border-radius: 5px;box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);width: 100%;margin: 0;list-style: none;padding: 4px 0;z-index: 2;transform:translateY(-50%);max-height: 100vh;overflow: auto;}
+.select-option {padding: 4px 8px 4px 25px;display: block;position: relative;}
+.select-option:hover{background-color:var(--hover--sky--bgcolor);color:#fff;}
+.select-option.selected::before {content: '';position: absolute;top: 45%;left: 10px;width: 4px;height: 12px;line-height: 14px;transform: translateY(-50%);display: inline-flex;justify-content: flex-start;align-items: center;border:1px solid currentColor;border-bottom-right-radius: 1px;rotate: 45deg;border-left: none;border-top: none;transform-origin: top center;}
+.select-option.hover-state {background-color: var(--formcontrol--bgcolor);}
+
+
+
+:host([prop="font-weight"]) .select-options{width: 160px;}

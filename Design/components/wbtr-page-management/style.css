@@ -1,0 +1,14 @@
+.block_section{padding-bottom: 5px;}
+
+.block_header{display: flex;align-items: center;justify-content: space-between;}
+
+.page_list{list-style: none;display: flex;flex-direction: column;gap: 4px;max-height: 123px;}
+.page_list li{border:2px solid transparent;padding: 4px 6px;}
+.page_list li:hover{background-color: var(--hover--lightgray--bgcolor);}
+.page_list li[contenteditable="true"]{border-color:#0d99ff;border-radius: var(--formcontrol--borderradius);}
+.page_list li:focus-visible{outline:none;}
+
+
+
+
+
