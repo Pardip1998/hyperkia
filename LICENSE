@@ -19,3 +19,20 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+# Third-Party Licenses
+
+This project also makes use of open-source icon sets:
+
+## Font Awesome Free v7.0.0
+- Icons: CC BY 4.0 License  
+- Code: MIT License  
+- Fonts: SIL OFL 1.1 License  
+Source: https://fontawesome.com/license/free
+
+- **Google Material Icons**  
+  Licensed under Apache 2.0  
+  https://fonts.google.com/icons  
+
+These assets are included under their respective licenses.
